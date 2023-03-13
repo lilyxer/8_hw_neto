@@ -1,6 +1,7 @@
 from datetime import datetime
 import requests
 from pprint import pprint
+import json
 
 class ParserStackOverflow:
     def __init__(self, tags: list|str) -> None:
@@ -46,4 +47,8 @@ class ParserStackOverflow:
 
 if __name__ == '__main__':
     my_parser = ParserStackOverflow('python')
-    pprint(my_parser.squeeze_request())
+    answer = my_parser.squeeze_request()
+    # мы можем выбрать вывод - либо в консоль, либо в файл
+    # pprint(answer)
+    # with open('my_parser.json', 'w', encoding='utf-8') as file_out:
+    #     json.dump(answer, file_out, indent=4, ensure_ascii=False)

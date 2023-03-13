@@ -1,0 +1,122 @@
+{
+    "Dylan Chevalier": {
+        "title": "TypeError: module() takes at most 2 arguments (3 given), Python",
+        "link": "https://stackoverflow.com/questions/75727210/typeerror-module-takes-at-most-2-arguments-3-given-python"
+    },
+    "savvamadar": {
+        "title": "Django field ends up blank after save() AND code that prevents it from reverting to a blank value",
+        "link": "https://stackoverflow.com/questions/75727373/django-field-ends-up-blank-after-save-and-code-that-prevents-it-from-reverting"
+    },
+    "Trevor": {
+        "title": "Python append csv with different values for a common index",
+        "link": "https://stackoverflow.com/questions/75727219/python-append-csv-with-different-values-for-a-common-index"
+    },
+    "Josh": {
+        "title": "How do I calculate both the sum and product of multiple inputs in python",
+        "link": "https://stackoverflow.com/questions/75727302/how-do-i-calculate-both-the-sum-and-product-of-multiple-inputs-in-python"
+    },
+    "Zachary Marx": {
+        "title": "Update Data frame Column with Reference to Itself",
+        "link": "https://stackoverflow.com/questions/75727362/update-data-frame-column-with-reference-to-itself"
+    },
+    "Peter": {
+        "title": "OpenCV(python): how to use ccm.ColorCorrectionModel.setWeightsList(p)?",
+        "link": "https://stackoverflow.com/questions/75720790/opencvpython-how-to-use-ccm-colorcorrectionmodel-setweightslistp"
+    },
+    "c76": {
+        "title": "User input shows value in other data frame column",
+        "link": "https://stackoverflow.com/questions/75717539/user-input-shows-value-in-other-data-frame-column"
+    },
+    "hugo999": {
+        "title": "Conditional calculation python",
+        "link": "https://stackoverflow.com/questions/75727184/conditional-calculation-python"
+    },
+    "Roga": {
+        "title": "Count duplicates within every 60 days by resetting counter after 60 days. Please suggest in sql/python code",
+        "link": "https://stackoverflow.com/questions/75727303/count-duplicates-within-every-60-days-by-resetting-counter-after-60-days-please"
+    },
+    "bonio350": {
+        "title": "how can i convert my python investing ai to predict prices for the next 20 days instead of the last 20 days?",
+        "link": "https://stackoverflow.com/questions/75727301/how-can-i-convert-my-python-investing-ai-to-predict-prices-for-the-next-20-days"
+    },
+    "Alyssa McWilliams": {
+        "title": "Making a follower count system in Python",
+        "link": "https://stackoverflow.com/questions/75727054/making-a-follower-count-system-in-python"
+    },
+    "Jorje Pinto": {
+        "title": "Setting Pyside6 windows in EXCLUDE FROM CAPTURE mode",
+        "link": "https://stackoverflow.com/questions/75727286/setting-pyside6-windows-in-exclude-from-capture-mode"
+    },
+    "Chaitanya Kesanapalli": {
+        "title": "How to broadcast scipy.linalg.eigvals for two matrix a(20,20) and b(100,20,20)?",
+        "link": "https://stackoverflow.com/questions/75727273/how-to-broadcast-scipy-linalg-eigvals-for-two-matrix-a20-20-and-b100-20-20"
+    },
+    "IndischerPhysiker": {
+        "title": "Weird plot when plotting a nearly-constant list",
+        "link": "https://stackoverflow.com/questions/75727015/weird-plot-when-plotting-a-nearly-constant-list"
+    },
+    "Alex Co": {
+        "title": "Python code to write XML strange way to close the elements",
+        "link": "https://stackoverflow.com/questions/75727049/python-code-to-write-xml-strange-way-to-close-the-elements"
+    },
+    "rajdyp": {
+        "title": "Why do these two regular expressions work differently with re.sub(), but return the same match with re.search()?",
+        "link": "https://stackoverflow.com/questions/75710033/why-do-these-two-regular-expressions-work-differently-with-re-sub-but-return"
+    },
+    "user21392203": {
+        "title": "python/ansible pymssql warnings are presented as fatal errors",
+        "link": "https://stackoverflow.com/questions/75727247/python-ansible-pymssql-warnings-are-presented-as-fatal-errors"
+    },
+    "Michael Kessler": {
+        "title": "Remove leading spaces from strings in DataFrame column of lists",
+        "link": "https://stackoverflow.com/questions/75726784/remove-leading-spaces-from-strings-in-dataframe-column-of-lists"
+    },
+    "jonhatan_schilino": {
+        "title": "Cannot run my class because **context error in airflow",
+        "link": "https://stackoverflow.com/questions/75727237/cannot-run-my-class-because-context-error-in-airflow"
+    },
+    "iKD": {
+        "title": "Why does finding the solution of the system of non-linear algebraic equations using &#39;nsolve&#39; of sympy not converge",
+        "link": "https://stackoverflow.com/questions/75724458/why-does-finding-the-solution-of-the-system-of-non-linear-algebraic-equations-us"
+    },
+    "mabusdogma": {
+        "title": "Connect to VPN on a cloud deployed streamlit app (with *.ovpn config file)",
+        "link": "https://stackoverflow.com/questions/75727215/connect-to-vpn-on-a-cloud-deployed-streamlit-app-with-ovpn-config-file"
+    },
+    "WQureshi": {
+        "title": "How do I find a specific text within an xml page and navigate to that webpage or at least return the URL?",
+        "link": "https://stackoverflow.com/questions/75726257/how-do-i-find-a-specific-text-within-an-xml-page-and-navigate-to-that-webpage-or"
+    },
+    "mnm": {
+        "title": "reading from Azure ADX to Jupyter notebook using MFA Authentication",
+        "link": "https://stackoverflow.com/questions/75727196/reading-from-azure-adx-to-jupyter-notebook-using-mfa-authentication"
+    },
+    "29nivek": {
+        "title": "Pass instance variable from one to another class without calling first class method",
+        "link": "https://stackoverflow.com/questions/75727040/pass-instance-variable-from-one-to-another-class-without-calling-first-class-met"
+    },
+    "Ioo": {
+        "title": "How to access columns from joined tables in sqlalchemy?",
+        "link": "https://stackoverflow.com/questions/75727186/how-to-access-columns-from-joined-tables-in-sqlalchemy"
+    },
+    "A.500": {
+        "title": "Python webscraping issues",
+        "link": "https://stackoverflow.com/questions/75724461/python-webscraping-issues"
+    },
+    "CSS_Mast": {
+        "title": "How to pickle a trained NLP model which I can test with arbitrary data",
+        "link": "https://stackoverflow.com/questions/75727118/how-to-pickle-a-trained-nlp-model-which-i-can-test-with-arbitrary-data"
+    },
+    "Davood Rafiei": {
+        "title": "giving name to a folder in a loop",
+        "link": "https://stackoverflow.com/questions/75726946/giving-name-to-a-folder-in-a-loop"
+    },
+    "Khalsam": {
+        "title": "how can I fix timeout on scapy",
+        "link": "https://stackoverflow.com/questions/75727149/how-can-i-fix-timeout-on-scapy"
+    },
+    "nitho": {
+        "title": "scapy.layers.inet couldnt be resolved",
+        "link": "https://stackoverflow.com/questions/75726696/scapy-layers-inet-couldnt-be-resolved"
+    }
+}
