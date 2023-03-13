@@ -2,15 +2,18 @@ import requests
 
 
 def parsing_heroes(all_heroes: dict, lst_names: tuple) -> dict:
+    """Считывает героев и ответа сервера и сопоставляет их с необходимыми
+    Если есть совпадение - добавляет в словарь где ключ - имя нашего герое,
+    значение его интеллект"""
     my_d = {}
     for hero in all_heroes:
         if hero['name'] in lst_names:
             my_d[hero['name']] = hero['powerstats']['intelligence']
     return my_d
 
+
 url = 'https://akabab.github.io/superhero-api/api'
 routes = '/all.json'
-
 
 if __name__ == '__main__':
     resp = requests.get(f'{url}{routes}')
