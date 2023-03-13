@@ -1,5 +1,4 @@
 import requests
-from pprint import pprint
 
 class YaUploader:
     def __init__(self, token: str):
@@ -15,7 +14,7 @@ class YaUploader:
     def get_link(self, path):
         """возвращает ответ на создание места на диске"""
         par = {'path': path, 
-               'owerwrite': False}
+               'overwrite': True} # перезапись не работает почему то...
         return requests.get(f'{self.url}resources/upload', headers=self.get_headers(),
                               params=par).json()
     
@@ -26,12 +25,11 @@ class YaUploader:
             upload = requests.put(href, data=open(file_mame, 'rb'))
             return 'Файл загружен на диск' if upload.status_code == 201 else 'что то пошло не по плану'
         return 'Что то пошло не так, ссылка не получена, файл не загружен'
-        
        
 
 if __name__ == '__main__':
     path_to_file = 'image.jpeg'
-    token = 'y0_AgAAAAAG-YuvAADLWwAAAADecAgQ2y8FkxY6Ru6h3JcYTfUrsqy6QsQ' #input()
+    token = input()
     uploader = YaUploader(token)
     print(uploader.upload('image.jpeg', path_to_file))
     
