@@ -14,7 +14,7 @@ class YaUploader:
     def get_link(self, path):
         """возвращает ответ на создание места на диске"""
         par = {'path': path, 
-               'overwrite': True} # перезапись не работает почему то...
+               'overwrite': 'True'} # перезапись не работает почему то...
         return requests.get(f'{self.url}resources/upload', headers=self.get_headers(),
                               params=par).json()
     
@@ -29,7 +29,7 @@ class YaUploader:
 
 if __name__ == '__main__':
     path_to_file = 'image.jpeg'
-    token = input()
+    token = input('Token pls ')
     uploader = YaUploader(token)
     print(uploader.upload('image.jpeg', path_to_file))
     

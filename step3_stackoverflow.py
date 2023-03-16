@@ -29,6 +29,7 @@ class ParserStackOverflow:
                   'tagged': self.tags,
                   'site': 'stackoverflow'}
         resp = requests.get(f'{self.url}{method}', params=params)
+        
         if resp.status_code == 200:
             return resp.json()
         raise ValueError
